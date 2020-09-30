@@ -4,6 +4,6 @@ Con un poco de suerte, una plantilla para la realización de proyectos con Fireb
 
 ## Referencias 
 
-### Cloud Firestores
+### Cloud Firestore
 * [ Referencia rápida de Google ]( https://firebase.google.com/docs/firestore/quickstart )
 * [ Articulo de introducción a las consultas en DB Firestore ]( https://medium.com/@rajatamil/firestore-querying-and-filtering-data-a-complete-guide-35962a4d0de1 )
