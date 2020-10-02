@@ -9,9 +9,9 @@ firestoreDb.collection('entries').orderBy('date','desc').limit(6)
 		querySnapshot => {
 			var newEntries = [];
 			querySnapshot.forEach(
-				doc => {
-					newEntries.push(doc.data());
-					console.log(doc.data());
+				docSnap => {
+					var document = docSnap.data();
+					newEntries.push(document);
 				}
 			)
 			entries = [...newEntries];
