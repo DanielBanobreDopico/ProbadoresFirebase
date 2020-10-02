@@ -1,5 +1,5 @@
 # ProbadoresFirebase
-Pruebas simples de cada uno de los serivicios proporcionados por Firebase usando Node y Svelte (30/09/2020).
+Pruebas simples de cada uno de los servicios proporcionados por Firebase usando Node y Svelte (30/09/2020).
 Con un poco de suerte, una plantilla para la realización de proyectos con Firebase.
 
 ## Referencias 
