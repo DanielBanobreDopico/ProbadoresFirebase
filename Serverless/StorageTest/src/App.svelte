@@ -5,18 +5,20 @@
 
 	var files;
 	var filesList = [];
+	var uploadProgress = 0;
 
 	async function upload () {
+		var upload;
 		var localFile = files[0];
 		console.log("File to upload:", localFile)
 		var remoteFile = uploadsFolder.child(localFile.name);
-		remoteFile.put(localFile)
-			.then(
-				snap => {
-					console.log('File upladed:', remoteFile);
-					listFiles();
-				}
-			);
+		upload = remoteFile.put(localFile);
+		upload.on('state_changed', 
+			snapshot => uploadProgress = (snapshot.bytesTransferred / snapshot.totalBytes),
+			err => console.error(err),
+			() => listFiles()
+		)
+
 	};
 
 	async function listFiles () {
@@ -28,9 +30,7 @@
 					name: item.name,
 					url: await item.getDownloadURL(),
 				}
-				console.log(file)
 				filesList = [...filesList, file];
-				console.log(filesList)
 			}
 		);
 	};
@@ -41,10 +41,9 @@
 
 <main>
 	<h1>Uploads</h1>
-
 	<input type="file" bind:files={files} placeholder="Select a file for upload...">
 	<button on:click={upload}>Upload</button>
-
+	<progress value={uploadProgress}></progress>
 	<div id="files">
 		<ul>
 		{#each filesList as item}
