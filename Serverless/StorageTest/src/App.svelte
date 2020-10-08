@@ -1,35 +1,42 @@
 <script>
-	import {firebaseStorage} from './firebase';
-	var storageRaiz = firebaseStorage.ref();
-	var imgFolder = storageRaiz.child('/img/');
+	import {firebaseStorageRoot} from './firebase';
+
+	var uploadsFolder = firebaseStorageRoot.child('/uploads/');
 
 	var files;
 	var filesList = [];
 
 	async function upload () {
-		var img = imgFolder.child('');
-		img.put(files[0])
+		var localFile = files[0];
+		console.log("File to upload:", localFile)
+		var remoteFile = uploadsFolder.child(localFile.name);
+		remoteFile.put(localFile)
 			.then(
 				snap => {
-					console.log('File upladed:', file);
+					console.log('File upladed:', remoteFile);
 					listFiles();
 				}
 			);
 	};
 
 	async function listFiles () {
-		listRef.listAll().then(
-			res => {
-				var newFileList = [];
-				res.items.forEach(
-					item => {
-						newFileList.push(item);
-					}
-				);
-				filesList = [...newFileList];
+		filesList = [];
+		var files = await uploadsFolder.listAll()
+		files.items.forEach(
+			async item => {
+				var file = {
+					name: item.name,
+					url: await item.getDownloadURL(),
+				}
+				console.log(file)
+				filesList = [...filesList, file];
+				console.log(filesList)
 			}
-		)
+		);
 	};
+
+	listFiles();
+
 </script>
 
 <main>
@@ -40,8 +47,10 @@
 
 	<div id="files">
 		<ul>
-		{#each filesList as file}
-			<li>{file.name}</li>
+		{#each filesList as item}
+			<li>
+				<a href={item.url}><p>{item.name}</p></a>
+			</li>
 		{/each}
 		</ul>
 	</div>
@@ -58,26 +67,5 @@
 </main>
 
 <style>
-	#book {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: center;
-	}
-	.entry {
-		display: flex;
-		align-items: center;
-		padding: 20px;
-		max-width: 400px;
-	}
-	.entry > div {
-		margin: 20px;
-	}
-	.entry > div > q {
-		font-style: italic;
-		font-size: xx-large;
-	}
-	.entry > div > p {
-		font-size: xx-small;
-	}
+
 </style>
