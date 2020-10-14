@@ -22,7 +22,6 @@
 	};
 
 	async function listFiles () {
-		filesList = [];
 		var files = await uploadsFolder.listAll()
 		files.items.forEach(
 			async item => {
@@ -57,10 +56,8 @@
 	<code>
 		<p>Recursos:</p> 
 		<ul>
-			<li>https://firebase.google.com/docs/storage/web/upload-files?hl=es</li>
+			<li>https://firebase.google.com/docs/storage/web/start</li>
 			<li>https://firebase.google.com/docs/web/setup#apps-de-node.js</li>
-			<li>https://firebase.google.com/docs/firestore/quickstart </li>
-			<li>https://fireship.io/lessons/svelte-v3-overview-firebase/</li>
 		</ul>
 	</code>
 </main>
