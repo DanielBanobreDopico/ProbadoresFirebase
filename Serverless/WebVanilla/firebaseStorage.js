@@ -1,0 +1,1 @@
+var firebaseStorage = firebase.storage();

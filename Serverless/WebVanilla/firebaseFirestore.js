@@ -1,0 +1,1 @@
+var firebaseDB = firebase.firestore();
