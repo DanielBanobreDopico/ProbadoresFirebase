@@ -1,13 +1,11 @@
-var firebaseConfig = {
-    apiKey: "api-key",
-    authDomain: "project-id.firebaseapp.com",
-    databaseURL: "https://project-id.firebaseio.com",
-    projectId: "project-id",
-    storageBucket: "project-id.appspot.com",
-    messagingSenderId: "sender-id",
-    appID: "app-id",
+const firebaseConfig = {
+    apiKey: "AIzaSyCg2HPxXgzstIV5WujTNoU3Ijrnbjw28Ks",
+    authDomain: "test-f624c.firebaseapp.com",
+    databaseURL: "https://test-f624c.firebaseio.com",
+    projectId: "test-f624c",
+    storageBucket: "test-f624c.appspot.com",
+    messagingSenderId: "143577927633",
+    appId: "1:143577927633:web:4015b607713074b2ec1af0"
 };
 
 firebase.initializeApp(firebaseConfig);
-
-

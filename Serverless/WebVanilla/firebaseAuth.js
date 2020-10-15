@@ -1,12 +1,26 @@
+const firebaseGoogleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
 var user;
 
-var firebaseGoogleAuthProvider = new firebase.auth.GoogleAuthProvider();
+firebase.auth().onAuthStateChanged(
+	newUser => {
+		if (newUser) {
+			user = newUser;
+		} else {
+			user = null;
+		}
+	}
+);
 
-firebase.auth().onAuthStateChanged(function(user) {
-    if (newUser) {
-        user = newuser;
-    } else {
-        user = null;
-    }
-});
+async function login () {
+	var result = await firebase.auth().signInWithPopup(firebaseGoogleAuthProvider)
+	user = result.user;
+	console.log('User arrives:', user)
+	return user
+}
+
+async function logout () {
+	await firebase.auth().signOut()
+	user = null;
+	console.log('User leaves')
+}
