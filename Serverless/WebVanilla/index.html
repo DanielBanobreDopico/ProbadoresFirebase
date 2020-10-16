@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <meta charset="UTF-8">
+</head>
 <body>
 
     <h1>Plantilla web para Firebase</h1>
@@ -10,18 +12,12 @@
     <h2>Prueba Firesbase Auth con Google Account</h2>
     <button id="sessionButton">Login</button>
 
-    <!--
-    <h1>Hello!</h1>
-	{#if user}
-	<h2>Hola {user.displayName}</h2>
-	<img alt="User picture" src={user.photoURL}>
-	<button on:click={logout}>Logout</button>
-	{:else}
-	<h2>Login</h2>
-	<button on:click={loginWithPopup}>Login with Google (popup)</button>
-	<button on:click={loginWithRedirect}>Login with Google (redirect)</button>
-    {/if}
-    -->
+    <h2>Prueba Firebase Storage</h2>
+    <input id="inputFiles" type="file">
+    <input id="submitFiles" type="submit">
+    <progress id="uploadProgress"></progress>
+    <h3>Uploads:</h3>
+    <ul id="uploadsList"></ul>
 
     <!-- Importamos Firebase -->
     <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>

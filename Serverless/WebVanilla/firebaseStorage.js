@@ -1,1 +1,1 @@
-var firebaseStorage = firebase.storage();
+const firebaseStorageRoot = firebase.storage().ref();
