@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="723.44165mm"
+   height="192.7764mm"
+   viewBox="0 0 723.44165 192.7764"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="esquema.svg"
+   inkscape:export-filename="/home/devel/Escritorio/git/ProbadoresFirebase/Serverless/WebVanilla/esquema.png"
+   inkscape:export-xdpi="68"
+   inkscape:export-ydpi="68">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1498.1481"
+     inkscape:cy="195.08797"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(206.58934,-277.97821)">
+    <g
+       id="g218">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-177.45775"
+         y="307.08499"
+         id="text12"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           x="-177.45775"
+           y="307.08499"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">Importar módulos</tspan></text>
+      <g
+         id="g156"
+         transform="translate(0,-21.166351)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-177.48358"
+           y="353.95331"
+           id="text28"><tspan
+             sodipodi:role="line"
+             id="tspan26"
+             x="-177.48358"
+             y="353.95331"
+             style="stroke-width:0.264583">index.html</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.67772px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.166943"
+           x="-177.05498"
+           y="363.83701"
+           id="text32"><tspan
+             sodipodi:role="line"
+             id="tspan30"
+             x="-177.05498"
+             y="363.83701"
+             style="stroke-width:0.166943">&lt;script src=&quot;...&quot;&gt;&lt;/script&gt;</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g209"
+       transform="translate(-24.289505)">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-18.607569"
+         y="308.59686"
+         id="text16"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           x="-18.607569"
+           y="308.59686"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">Configurar app de Firebase</tspan></text>
+      <g
+         id="g150"
+         transform="translate(0,-17.386627)">
+        <g
+           id="g138">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="-17.230028"
+             y="350.17358"
+             id="text36"><tspan
+               sodipodi:role="line"
+               id="tspan34"
+               x="-17.230028"
+               y="350.17358"
+               style="stroke-width:0.264583">firebase.js</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.67772px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.166943"
+           x="-17.569208"
+           y="360.81323"
+           id="text40"><tspan
+             sodipodi:role="line"
+             id="tspan38"
+             x="-17.569208"
+             y="360.81323"
+             style="stroke-width:0.166943"><tspan
+   style="fill:#ff0000"
+   id="tspan66">const</tspan> <tspan
+   style="fill:#008000"
+   id="tspan62">firebaseConfig</tspan>={...};</tspan><tspan
+             sodipodi:role="line"
+             x="-17.569208"
+             y="369.16037"
+             style="stroke-width:0.166943"
+             id="tspan60">firebase.<tspan
+   style="fill:#0000ff"
+   id="tspan68">initializeApp</tspan>(<tspan
+   style="fill:#008000"
+   id="tspan64">firebaseConfig</tspan>);</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g187"
+       transform="translate(-1.1701926)">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="149.09172"
+         y="307.84372"
+         id="text20"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           x="149.09172"
+           y="307.84372"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">Configurar servicios específicos</tspan></text>
+      <g
+         id="g120"
+         transform="translate(32.30851)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="117.73194"
+           y="332.78696"
+           id="text76"><tspan
+             sodipodi:role="line"
+             id="tspan74"
+             x="117.73194"
+             y="332.78696"
+             style="stroke-width:0.264583">firebaseStorage.js</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.67772px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.166943"
+           x="145.05264"
+           y="343.42657"
+           id="text90"><tspan
+             sodipodi:role="line"
+             x="145.05264"
+             y="343.42657"
+             style="stroke-width:0.166943"
+             id="tspan88">firebaseStorageRoot</tspan></text>
+      </g>
+      <g
+         id="g126"
+         transform="translate(36.587303,-19.385201)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="113.45315"
+           y="391.75037"
+           id="text98"><tspan
+             sodipodi:role="line"
+             id="tspan96"
+             x="113.45315"
+             y="391.75037"
+             style="stroke-width:0.264583">firebaseFirestore.js</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.67772px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.166943"
+           x="176.90875"
+           y="401.63403"
+           id="text102"><tspan
+             sodipodi:role="line"
+             x="176.90875"
+             y="401.63403"
+             style="stroke-width:0.166943"
+             id="tspan100">firebaseDB</tspan></text>
+      </g>
+      <g
+         id="g134"
+         transform="translate(15.710083,-35.529204)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="134.33037"
+           y="445.42215"
+           id="text106"><tspan
+             sodipodi:role="line"
+             id="tspan104"
+             x="134.33037"
+             y="445.42215"
+             style="stroke-width:0.264583">firebaseAuth.js</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.67772px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.166943"
+           x="157.81792"
+           y="453.03799"
+           id="text110"><tspan
+             sodipodi:role="line"
+             x="157.81792"
+             y="453.03799"
+             style="stroke-width:0.166943"
+             id="tspan108">var user</tspan><tspan
+             sodipodi:role="line"
+             x="157.81792"
+             y="461.38513"
+             style="stroke-width:0.166943"
+             id="tspan112">function login()</tspan><tspan
+             sodipodi:role="line"
+             x="157.81792"
+             y="469.7323"
+             style="stroke-width:0.166943"
+             id="tspan114">function logout()</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g194"
+       transform="translate(-1.0613048e-5)">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="365.28787"
+         y="307.08777"
+         id="text24"><tspan
+           sodipodi:role="line"
+           id="tspan22"
+           x="365.28787"
+           y="307.08777"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">Uso de los servicios</tspan></text>
+      <g
+         id="g166"
+         transform="translate(248.46371)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="117.73194"
+           y="332.78696"
+           id="text160"><tspan
+             sodipodi:role="line"
+             id="tspan158"
+             x="117.73194"
+             y="332.78696"
+             style="stroke-width:0.264583">script.js</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -189.56848,316.15898 H 496.06393"
+       id="path220" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -55.758109,295.7486 V 452.98431"
+       id="path222" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 136.99205,295.7486 V 452.98431"
+       id="path224" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 353.1882,295.7486 V 452.98431"
+       id="path226" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 495.29622,295.7486 V 452.98431"
+       id="path228" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -189.55372,295.7486 V 452.98431"
+       id="path230" />
+  </g>
+</svg>
