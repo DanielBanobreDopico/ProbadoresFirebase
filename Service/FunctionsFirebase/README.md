@@ -12,9 +12,12 @@ $ firebase init
 
 Seleccionaremos las respuestas tal y como se muestra en el ejemplo:
 
-![](./img/1.png)
+![](./img/1a.png)
+![](./img/1b.png)
+![](./img/1c.png)
+![](./img/1d.png)
 
-## Trasbase de los endpoints a Firebase Functions
+## Trasvase de los endpoints a Firebase Functions
 
 Completado el proceso anterior, hemos de pasar nuestra funciones de Express al fichero functions/index.js que ha sido creado por la inicializacion.
 
