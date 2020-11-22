@@ -1,25 +1,4 @@
 # Storage
-Firebase admin nos permite acceder a nuestros servicios de Firebase de forma privilegiada.
-[Referencia Firebase Admin](https://firebase.google.com/docs/admin/setup)
-[Referencia Google Cloud Storage Node.js Client]
-
-```bash
-npm install firebase-admin
-```
-
-```node
-var admin = require('firebase-admin');
-
-var serviceAccount = require("path/to/serviceAccountKey.json");
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://test-f624c.firebaseio.com"
-});
-
-import * as Storage from '@google-cloud/storage';
-
-const gcs = Storage();
 
 async function createBucket() {
     await storage.createBucket(bucketName);
